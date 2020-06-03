@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-
+//123
 public class login implements ActionListener{					//µn¤J¤¶­±
 
 	private JFrame f = new JFrame();
