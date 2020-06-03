@@ -1,0 +1,25 @@
+plugins {
+	id "java"
+	id "jacoco"
+	id "org.sonarqube" version "2.7"
+}
+
+javadoc.options.encoding = 'UTF-8'
+compileJava.options.encoding = 'UTF-8'
+
+// set project repositories (jar libs server)
+repositories {
+    mavenCentral()
+}
+
+/*****
+ * libs definition
+ * 	- compile
+ *	- runtime
+ *	- testCompile
+ *	- testRuntime
+ * format = Group:Module:Version
+ */
+dependencies {
+    testImplementation 'junit:junit:4.+'
+}
